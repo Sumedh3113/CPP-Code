@@ -1,0 +1,59 @@
+class Solution {
+public:
+    int reverse(int x) {
+        
+        long int dec=0;
+        long int rev=0;
+       
+         while(x!=0){
+        if(x%10==0){
+              x=x/10;
+                   }
+             else{
+            break;
+             }
+        }        
+     
+     //   cout<<x;
+        
+        if(x>2147483647 || x< -2147483647){
+            return 0;
+        }
+        else{
+               
+        if(x>0){
+        
+            while(x>0){
+        dec=x%10;
+        x=x/10;
+                rev=rev*10 + dec;
+        }    
+            
+        }
+        else {
+            x=-1*x;
+            while(x>0){
+        dec=x%10;
+        x=x/10;
+                rev=rev*10 + dec;
+          
+                
+        }   
+          
+            
+            rev=-1*rev;
+        }
+        
+            if(rev> 2147483647 || rev < -2147483647){
+                return 0;
+                
+            }
+        
+        else{
+        return rev;
+        }
+    }
+
+}
+};
+
