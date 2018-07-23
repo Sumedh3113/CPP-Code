@@ -1,0 +1,50 @@
+string shiftregister::addBitStrings( vector<char> &r1, vector<char> &r2 )
+{
+	string result; // To store the sum bits
+
+	// make the lengths same before adding
+	int length=0;
+	int len1 = first.size();
+	int len2 = second.size();
+	int carry = 0; // Initialize carry
+
+	if (len1 < len2)
+	{
+		for (int i = 0 ; i < len2 - len1 ; i++)
+			first = '0' + first;
+		//return len2;
+		length=len2;
+	}
+	else if (len1 > len2)
+	{
+		for (int i = 0 ; i < len1 - len2 ; i++)
+			second = '0' + second;
+
+			length=len1;
+	}
+
+
+
+else if(len1==len2){
+	// Add all bits one by one
+	for (int i = length-1 ; i >= 0 ; i--)
+	{
+		int firstBit = first.at(i) - '0';
+		int secondBit = second.at(i) - '0';
+
+		// boolean expression for sum of 3 bits
+		int sum = (firstBit ^ secondBit ^ carry)+'0';
+
+		result = (char)sum + result;
+
+		// boolean expression for 3-bit addition
+		carry = (firstBit & secondBit) | (secondBit & carry) | (firstBit & carry);
+	}
+	if (carry){
+		result = '1' + result;
+   }
+}//-->
+  //cout<<"hi"<<result;
+
+	return result;
+}
