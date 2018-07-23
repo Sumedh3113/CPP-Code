@@ -1,0 +1,40 @@
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        
+        long int rev=0;
+        long int ori=0;
+        
+        ori=x;
+        if(x==0){
+            return 1;
+        }
+        
+        else{
+        while(x!=0){
+        if(x>0){
+            rev=rev*10+x%10;
+            x=x/10;
+           // cout<<rev;
+            
+        }
+        else{
+        x=-1*x;
+             rev=-1*rev*10+x%10;
+             x=x/10;
+            
+        }
+        
+        }// while
+        }//else
+        
+        if(ori==rev){
+            
+            return 1;
+        }
+        else{
+            return 0;
+        }
+        
+    }
+};
