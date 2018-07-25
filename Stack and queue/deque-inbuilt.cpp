@@ -1,3 +1,4 @@
+//use of in built deque operation
 #include <iostream>
 #include <deque>
  
