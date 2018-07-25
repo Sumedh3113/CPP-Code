@@ -1,6 +1,4 @@
-/*
- * C++ Program to Implement Queue using Linked List
- */
+//C++ Program to Implement Queue using Linked List
 #include <iostream>
 #include <stdio.h>
 #include <conio.h>
