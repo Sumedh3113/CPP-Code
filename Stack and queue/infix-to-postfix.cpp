@@ -1,7 +1,5 @@
-/*
-we used multiple stacks to perform the operatopn
-in postfix operand will appear first an then operator so evaluvation condition first only stores operands
-*/
+//we used multiple stacks to perform the operatopn
+//in postfix operand will appear first an then operator so evaluvation condition //first only stores operands
 #include
 #include<stdio.h> 
 #include<string.h> 
