@@ -1,3 +1,4 @@
+// stack using link list
 #include<iostream>
 using namespace std;
 
