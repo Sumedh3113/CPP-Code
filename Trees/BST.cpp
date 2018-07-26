@@ -1,5 +1,5 @@
-// Binary Search Tree - Implemenation in C++
-// Simple program to create a BST of integers and search an element in it 
+/* Binary Search Tree - Implemenation in C++
+// Simple program to create a BST of integers and search an element in it */
 #include<iostream>
 using namespace std;
 //Definition of Node for Binary search tree
