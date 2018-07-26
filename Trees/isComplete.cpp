@@ -1,4 +1,4 @@
-/* C program to checks if a binary tree complete ot not */
+///* C program to checks if a binary tree complete ot not */
 #include<iostream>
  
  using namespace std;
