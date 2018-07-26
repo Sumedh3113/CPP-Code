@@ -1,4 +1,4 @@
-/* Deleting a node from Binary search tree */
+// Deleting a node from Binary search tree 
 #include<iostream>
 using namespace std;
 struct Node {
