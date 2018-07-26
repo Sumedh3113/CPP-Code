@@ -1,3 +1,4 @@
+//Postorder traversal with two stack
 #include <stdio.h>
 #include <stdlib.h>
  
