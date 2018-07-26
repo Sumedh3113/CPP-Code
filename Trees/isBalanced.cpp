@@ -1,4 +1,4 @@
-/* C program to check if a tree is height-balanced or not */
+///* C program to check if a tree is height-balanced or not */
 #include<stdio.h>
 #include<stdlib.h>
 #define bool int
