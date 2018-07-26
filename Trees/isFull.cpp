@@ -1,4 +1,4 @@
-// C program to check whether a given Binary Tree is full or not
+///* C program to check whether a given Binary Tree is full or not*/
 #include<iostream>
  
  using namespace std;
