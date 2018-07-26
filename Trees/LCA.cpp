@@ -1,4 +1,5 @@
-// A O(n) solution to find LCA of two given values n1 and n2
+//
+/* A O(n) solution to find LCA of two given values n1 and n2*/
 #include <iostream>
 #include <vector>
 using namespace std;
