@@ -1,4 +1,4 @@
-// C++ program to check if a given Binary Tree is symmetric or not
+/* C++ program to check if a given Binary Tree is symmetric or not*/
 #include<bits/stdc++.h>
 using namespace std;
  
